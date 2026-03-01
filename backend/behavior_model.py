@@ -6,7 +6,7 @@ from database import get_connection
 # Max possible distance across 5 normalized [0,1] dimensions is √5 ≈ 2.23
 # 1.0 is a comfortable threshold — tight enough to catch imposters,
 # loose enough to not lock out real users with slightly varied behavior
-THRESHOLD = 0.5
+THRESHOLD = 0.35
 
 # How many logins before we start enforcing behavior verification
 # During this warmup period the profile builds a real baseline
