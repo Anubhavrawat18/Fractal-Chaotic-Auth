@@ -1,0 +1,66 @@
+# ── Python / FastAPI (backend/) ──────────────────────────────────────────────
+backend/venv/
+backend/__pycache__/
+backend/**/__pycache__/
+backend/*.pyc
+backend/*.pyo
+backend/*.pyd
+backend/.Python
+backend/*.egg-info/
+backend/dist/
+backend/build/
+backend/.eggs/
+
+# Database
+backend/*.db
+backend/*.sqlite
+backend/*.sqlite3
+
+# Environment variables — never commit credentials
+backend/.env
+backend/.env.local
+backend/.env.production
+
+# ── React / Vite (frontend/) ─────────────────────────────────────────────────
+frontend/node_modules/
+frontend/dist/
+frontend/build/
+frontend/.vite/
+frontend/.cache/
+
+# Environment variables
+frontend/.env
+frontend/.env.local
+frontend/.env.development.local
+frontend/.env.test.local
+frontend/.env.production.local
+
+# ── OS & Editor junk ─────────────────────────────────────────────────────────
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+Thumbs.db
+desktop.ini
+
+# VSCode
+.vscode/
+*.code-workspace
+
+# JetBrains / PyCharm
+.idea/
+*.iml
+*.iws
+
+# ── Logs ─────────────────────────────────────────────────────────────────────
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# ── Misc ─────────────────────────────────────────────────────────────────────
+*.pem
+*.key
+*.cert
